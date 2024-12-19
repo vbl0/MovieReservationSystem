@@ -14,6 +14,8 @@ public class Main {
         System.out.println(viewer2);
         System.out.println(cinema);
 
+        System.out.println("Одинаковые фильмы? " + film1.getTitle().equals(film2.getTitle()));
+
 
     }
 }
